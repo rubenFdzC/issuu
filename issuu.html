@@ -6,48 +6,58 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ISSUU</title>
-    <link rel="stylesheet" href="../SEMANA 2/StyleEj1.css">
+    <link rel="stylesheet" href="./issuustyle.css">
 
 </head>
 
 <body>
     <header>
-    <div class="DivHeader">
-        <img src="../SEMANA 2/IMAGES/ISSUU(LOGO).png" alt="">
-    </div>
+        <div class="DivHeader">
+            <div class="DivLogo">
+                <img class="logo" src="./IMAGES/ISSUU.png" alt="">
+            </div>
+            <div class="DivAlredyUser">
+                <p>Already a user?</p>
+                <a href="https://issuu.com/pricing">Sing in</a>
+            </div>
+        </div>
     </header>
-    <div class="DivAlredyUser">
-        <p>Already a user?</p>
-        <a href="https://issuu.com/signup?plan=basic&amp;returnUrl=%2F&amp;coupon="></a>
+    <section class="margin">
+    <a href="https://issuu.com/signup?plan=basic&amp;returnUrl=%2F&amp;coupon="></a>
     </div>
     <div class="DivCreateAccount">
-        <h1>Create an ISSUU Account. </<h1>
+        <h2>Create an ISSUU Account.</h2>
     </div>
-    <div class="DivSocialMEdia">
-        <button src="https://accounts.google.com/o/oauth2/v2/auth/oauthchooseaccount?gsiwebsdk=3&client_id=354925100697-81e4b0315i9turd2dj0llobsi3lnghat.apps.googleusercontent.com&scope=openid%20profile%20email&redirect_uri=storagerelay%3A%2F%2Fhttps%2Fissuu.com%3Fid%3Dauth394386&prompt=select_account&response_type=token&include_granted_scopes=true&enable_serial_consent=true&service=lso&o2v=2&flowName=GeneralOAuthFlow"></button>
-        <button src="https://www.facebook.com/login.php?skip_api_login=1&api_key=2345497959016766&kid_directed_site=0&app_id=2345497959016766&signed_next=1&next=https%3A%2F%2Fwww.facebook.com%2Fv2.7%2Fdialog%2Foauth%3Fapp_id%3D2345497959016766%26auth_type%3Drerequest%26cbt%3D1677515779648%26channel_url%3Dhttps%253A%252F%252Fstaticxx.facebook.com%252Fx%252Fconnect%252Fxd_arbiter%252F%253Fversion%253D46%2523cb%253Df222775d88c4c9c%2526domain%253Dissuu.com%2526is_canvas%253Dfalse%2526origin%253Dhttps%25253A%25252F%25252Fissuu.com%25252Ff20c1f5521d4614%2526relation%253Dopener%26client_id%3D2345497959016766%26display%3Dpopup%26domain%3Dissuu.com%26e2e%3D%257B%257D%26fallback_redirect_uri%3Dhttps%253A%252F%252Fissuu.com%252Fsignup%253Fplan%253Dbasic%2526amp%253BreturnUrl%253D%25252F%2526amp%253Bcoupon%253D%26locale%3Den_US%26logger_id%3Df3c1439106bac8%26origin%3D1%26redirect_uri%3Dhttps%253A%252F%252Fstaticxx.facebook.com%252Fx%252Fconnect%252Fxd_arbiter%252F%253Fversion%253D46%2523cb%253Df2f4f874a28fb44%2526domain%253Dissuu.com%2526is_canvas%253Dfalse%2526origin%253Dhttps%25253A%25252F%25252Fissuu.com%25252Ff20c1f5521d4614%2526relation%253Dopener%2526frame%253Df26e339682580c%26response_type%3Dtoken%252Csigned_request%252Cgraph_domain%26scope%3Dpublic_profile%252Cemail%26sdk%3Djoey%26version%3Dv2.7%26ret%3Dlogin%26fbapp_pres%3D0%26tp%3Dunspecified&cancel_url=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Df2f4f874a28fb44%26domain%3Dissuu.com%26is_canvas%3Dfalse%26origin%3Dhttps%253A%252F%252Fissuu.com%252Ff20c1f5521d4614%26relation%3Dopener%26frame%3Df26e339682580c%26error%3Daccess_denied%26error_code%3D200%26error_description%3DPermissions%2Berror%26error_reason%3Duser_denied&display=popup&locale=es_LA&pl_dbl=0"></button>
-
+    <div class="DivSocialMedia">
+        
+        <div>
+            <input class="google" type="image" src="./IMAGES/google.jpg">
+        </div>
+        <div>
+            <input class="google" type="image" src="./IMAGES/facebook.jpg">
+        </div>
     </div>
     <div class="DivWith">
-    <h3>or with email </h3>
-    
+        <h4>or with email </h4>
         <label for="email">Email</label>
-        <input type="text" placeholder="Email " name="email" required="@" minlength="5">
+        <input class="email" type="text" placeholder="Email " name="email" required="@" minlength="5">
     </div>
     <div>
         <label for="Password ">Password</label>
-        <div><input type="password" placeholder="Password" name="password" required pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*_=+-]).{8,12}$"
-            oninvalid="this.setCustomValidity('Necesitas al menos 1 numero 1 mayuscula, 1 minuscula y 1 simbolo')">
-            </div>
+        <div><input class="email" type="password" placeholder="Password" name="password" required
+                pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*_=+-]).{8,12}$"
+                oninvalid="this.setCustomValidity('Necesitas al menos 1 numero 1 mayuscula, 1 minuscula y 1 simbolo')">
+        </div>
     </div>
-    <div><input type="checkbox" ><label for="Terms"><a href=""></a></label></div>
-    <div></div>
+    <div  class="Terms"><input type="checkbox">I acept the <a href="">terms of service</a> and the <a href="">Profesional Terms of Service</a></label></div>
+    <div class="Account"><button>CREATE ACCOUNT</button></div>
+</section>
 </body>
 <footer>
-    <a href="https://issuu.com/legal/terms"></a>
-    <a href="https://issuu.com/legal/privacy"></a>
-    <a href="https://issuu.com/legal/dmca"></a>
-    <a href="https://issuu.com/legal/accessibility"></a>
+    <a href="https://issuu.com/legal/terms">Issuu Inc.</a>
+    <a href="https://issuu.com/legal/privacy">Terms</a>
+    <a href="https://issuu.com/legal/dmca">Privacy</a>
+    <a href="https://issuu.com/legal/accessibility">DMCA</a>
 
 </footer>
 

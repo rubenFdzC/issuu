@@ -1,15 +1,57 @@
 .DivHeader{
-
-box-shadow: 2px;
+display: flex;
+justify-content: space-between; 
+box-shadow: 0px 1px 1px;
+padding: 2px;
+margin-top: 8px;
+font-family: 'Times New Roman', Times, serif;
+font-size: 16px;
+margin-top: 16px;
 }
-.Div2{
-padding:
-    
+.margin{
+    padding: 40px;
 }
-.Div3{
-padding: 
-        
+.DivLogo{
+    display: flex;
+    justify-content: flex-start;
 }
-.Div4{
- padding:
+.DivAlreadyUser{
+display: flex;
+flex-direction: column;
+flex-direction: row;
+justify-content: end;
+}
+.logo{
+    height: 50px;
+    width: 200px;
+}
+.DivSocialMedia{
+    display: flex;
+ flex-direction: row;
+}
+.google{
+    width: 200px;
+    height: 40px;
+}
+.DivWith{
+    display: flex;
+    flex-direction: column;
+}
+.email{
+    width: 50%;
+}
+.Terms{
+    font-size: 10px;
+    text-decoration: none;
+}
+.Account{
+    margin-top: 20px;
+    font-size: larger;
+}
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-decoration: none;
+    text-decoration-color: black;
 }
